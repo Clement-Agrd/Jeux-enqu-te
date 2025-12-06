@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 namespace GamePlay.Script.GamePlay.Mouse2D
 {
-	public class MouseInputClick : MonoBehaviour, IInteract
+	public class MouseInputClick : MonoBehaviour
 	{
 		public  InputAction playerInput;
 
@@ -15,15 +15,12 @@ namespace GamePlay.Script.GamePlay.Mouse2D
 		{
 			playerInput.Disable();
 		}
-
 		private void Update()
 		{
-			Interact();
-		}
-
-		public void Interact()
-		{
-			
+			if (playerInput.WasPerformedThisFrame())
+			{
+				Debug.Log("ClickInteract");
+			}
 		}
 	}
 }
