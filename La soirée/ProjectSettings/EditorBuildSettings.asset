@@ -5,18 +5,36 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/ScenesClement/Scene build.unity
-    guid: ca22d34edb515034787b8a1d308adb22
   - enabled: 1
-    path: Assets/ScenesSaverio/Chambre.unity
-    guid: fd6150cc8e3e8364693cb5bf9641228f
+    path: Assets/SceneFinale/Chambre1.unity
+    guid: 85a1968e4e2b1754e8dbf9466c55c73f
   - enabled: 1
-    path: Assets/ScenesSaverio/Cuisine.unity
-    guid: 7db1c557ff800de4da42c70399d5b43e
+    path: Assets/SceneFinale/Chambre2.unity
+    guid: 133146958e862304580096a44371b84f
   - enabled: 1
-    path: Assets/ScenesSaverio/Toilette.unity
-    guid: 175f6c4495073184bad0db44006835e1
+    path: Assets/SceneFinale/Chambre3.unity
+    guid: 07ab1459c2cbfcb469de78b02271dcbf
+  - enabled: 1
+    path: Assets/SceneFinale/Entrer.unity
+    guid: 60740d7704f1bf94dbfb0cfa38eaceca
+  - enabled: 1
+    path: Assets/SceneFinale/Garage.unity
+    guid: 5c2f5985165fde641a3849ff2898082b
+  - enabled: 1
+    path: Assets/SceneFinale/SalleDeBain.unity
+    guid: bf56e02a2b1f95144bc1114c878bd32d
+  - enabled: 1
+    path: Assets/SceneFinale/Salon.unity
+    guid: 05581857e58d31a46bbb476a11438522
+  - enabled: 1
+    path: Assets/SceneFinale/Toilette.unity
+    guid: cc1dafb7979e3dc47a83ff9bc539d499
+  - enabled: 1
+    path: Assets/SceneFinale/Couloir.unity
+    guid: f0a5f259118704740ab13ccfcfa9fd1e
+  - enabled: 1
+    path: Assets/SceneFinale/Cuisine.unity
+    guid: a88335d887e3bdf4db5415014504365a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

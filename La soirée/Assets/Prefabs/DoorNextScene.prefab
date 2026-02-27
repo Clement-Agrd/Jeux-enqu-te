@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c1cf668b5cd83f469d0717baf955a69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: GamePlay::GamePlay.SceneChangeSysteme
-  sceneName: 
+  sceneName: 'Scene 2 '
 --- !u!114 &2787738397842312730
 MonoBehaviour:
   m_ObjectHideFlags: 0
