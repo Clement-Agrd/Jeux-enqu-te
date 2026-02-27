@@ -14,10 +14,6 @@ public class InventoryUI : MonoBehaviour
     public GameObject itemButtonPrefab;    // Bouton d'objet
     public GameObject itemDetailsPanel; // Image + description
     
-    [Header("Dialogue")]
-    public GameObject itemDetailsPanelObject;
-    public GameObject previewImageObject;
-    public TMP_Text descriptionTextObject;
     
     
     [Header("Preview")]
