@@ -15,7 +15,7 @@ namespace GamePlay
         public DialogueManager manager;
         public PnjBase pnjBase;
         public bool DialogueIsActive { get; private set; }
-        public bool RangeIsAdd;
+        private bool RangeIsAdd;
 
         private int dialogueIndex;
         private Coroutine typingCoroutine;
@@ -171,8 +171,8 @@ namespace GamePlay
 
                 else
                 {
-                    pnjBase.pnjData.Range += dialogueData.AddRange;
-                    Debug.Log ($"Range = {pnjBase.pnjData.Range}");
+                    dialogueData.pnj.Range += dialogueData.AddRange;
+                    Debug.Log ($"Range = {dialogueData.pnj.Range}");
                     
                     RangeIsAdd = true;
                 }

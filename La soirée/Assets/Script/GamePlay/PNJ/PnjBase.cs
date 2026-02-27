@@ -18,6 +18,7 @@ namespace GamePlay.Script.GamePlay.PNJ
         public SpriteRenderer CharaterSprite;
         private List<Inventory> inventory;
         private float Range;
+        public bool talking;
 
 		
         public DialogueManager dialogueManager;
@@ -44,8 +45,11 @@ namespace GamePlay.Script.GamePlay.PNJ
         }
         public void Interact()
         {
-            Debug.Log($"I am  {pnjData.name}");
-            Buttons.SetActive(true);
+            if (talking == false)
+            {
+                Debug.Log($"I am  {pnjData.name}");
+                Buttons.SetActive(true);
+            }
         }
 
         public void ResetExpression()
@@ -75,6 +79,7 @@ namespace GamePlay.Script.GamePlay.PNJ
         {
             Debug.Log("Talk");
             Buttons.SetActive(false);
+            talking = true;
 			
             dialogueManager.ShowChoice();
         }

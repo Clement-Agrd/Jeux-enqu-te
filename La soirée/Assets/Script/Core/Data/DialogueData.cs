@@ -15,6 +15,7 @@ namespace Core
             private int index;
         }
         [SerializeField] public float AddRange;
+        public PnjData pnj;
         public DialogueText[] AddDialogue;
     }
 }

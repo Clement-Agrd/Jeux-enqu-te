@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
   m_Name: option 1
   m_EditorClassIdentifier: Core::Core.DialogueData
-  AddRange: 0
+  AddRange: 5
+  pnj: {fileID: 11400000, guid: 781d81057231cfa4d9f0d668f5993112, type: 2}
   AddDialogue:
   - expression: 1
     text: salut
