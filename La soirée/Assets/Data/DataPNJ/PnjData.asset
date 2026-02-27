@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17d1e377fd6410298beaa3107680463, type: 3}
+  m_Name: PnjData
+  m_EditorClassIdentifier: Core::Core.Script.Core.Data.PnjData
+  Name: Kenny
+  GameObject: []
+  Accuse: 0
+  Range: 0
+  objectDatas:
+  - {fileID: 11400000, guid: a0ca5de524e57c9488570720c88ab28a, type: 2}
+  idle: {fileID: -7739649682637728221, guid: bf3a6dd5b56ca8042b06c05a254979b5, type: 3}
+  talk: {fileID: -7835740604882231108, guid: 1a05156078431604f94b7705f9471085, type: 3}
+  angry: {fileID: -6226308865813368889, guid: c2c66c571c9e28647ac2a2204f201678, type: 3}
+  happy: {fileID: -8351344471612599606, guid: 3a4a76a26c437bd449153b7532f103ed, type: 3}
+  sad: {fileID: -2795483419996162998, guid: 2b60c42622b9d464aa0b2be2c33a8941, type: 3}
+  surprise: {fileID: -4471433514670308383, guid: 51ee963cd5b1b85469c03d51e188e11d, type: 3}

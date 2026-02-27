@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad00572624b723347955aa5681bef4c5, type: 3}
+  m_Name: Couteau
+  m_EditorClassIdentifier: Core::Core.ObjetData
+  ObjetPrefab: {fileID: 7063085775375782563, guid: 850a230150d24fc4487537086cca9888, type: 3}
+  Name: Couteau de cuisine
+  Description: il coupe vachement bien
+  HideDescription: nique
+  ShowingDescription: 
+  Value: 5
+  TimeValue: 100
+  icon: {fileID: -8343293519655661031, guid: 95e637bb74f294a4cb5a4eccee864527, type: 3}
+  isActive: 0
+  isActiveForever: 0
+  ID: 2

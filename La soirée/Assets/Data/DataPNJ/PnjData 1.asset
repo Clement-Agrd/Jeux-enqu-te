@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17d1e377fd6410298beaa3107680463, type: 3}
+  m_Name: PnjData 1
+  m_EditorClassIdentifier: Core::Core.Script.Core.Data.PnjData
+  Name: Paul
+  objectDatas:
+  - {fileID: 11400000, guid: 9cff35586b882d5488a3e110ff076047, type: 2}
+  - {fileID: 11400000, guid: 0d053f011a140014799312d70edbaa65, type: 2}
+  Accuse: 105

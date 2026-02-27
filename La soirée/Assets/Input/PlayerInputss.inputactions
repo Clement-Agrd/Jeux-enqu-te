@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "name": "PlayerInputss",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "1745063f-aa81-4656-b84c-9863959fb0c7",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "f7d6a5d1-eebf-4f92-afa6-8e47d13d064a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Save",
+                    "type": "Button",
+                    "id": "36f281d7-ea8a-47f9-90fc-ddf0a4c9f33b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Load",
+                    "type": "Button",
+                    "id": "3c60ca33-18c7-45ae-8398-e9461f7ce776",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9c4e17a4-2319-4160-9385-076c8e88bbb4",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "31960d0f-d0b8-4834-9960-532a57666f5f",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Save",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4935d313-a3b6-4e58-b05d-632f33efb3fe",
+                    "path": "<Keyboard>/l",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Load",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
