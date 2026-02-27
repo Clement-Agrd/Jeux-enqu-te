@@ -96,7 +96,6 @@ namespace GamePlay.Script.GamePlay.PNJ
                 Debug.Log("C'est moi");
                 //Play video de fin 
             }
-			
         }
     }
 }
