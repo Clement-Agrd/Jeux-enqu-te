@@ -12,10 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad00572624b723347955aa5681bef4c5, type: 3}
   m_Name: Gun
   m_EditorClassIdentifier: Core::Core.Script.Core.Data.ObjectData
-  ID: 4
-  icon: {fileID: -4253528738099400236, guid: 7b43e7bfae0dafe49a4da1c8df7c41ad, type: 3}
   ObjetPrefab: {fileID: 0}
   Name: 
   Description: 
-  Value: 100
+  HideDescription: 
+  ShowingDescription: 
+  ShowValue: 6
+  InteractValue: 1
   TimeValue: 52
+  icon: {fileID: -4253528738099400236, guid: 7b43e7bfae0dafe49a4da1c8df7c41ad, type: 3}
+  isActive: 0
+  isActiveForever: 0
+  ID: 4
+  pnjData: {fileID: 11400000, guid: cba3057aa9d59fc489278570742cd5ff, type: 2}
+  pnjDataRangeUp: {fileID: 11400000, guid: cba3057aa9d59fc489278570742cd5ff, type: 2}

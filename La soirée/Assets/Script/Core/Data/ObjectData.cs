@@ -13,12 +13,14 @@ namespace Core.Script.Core.Data
         public string ShowingDescription;
         public int ShowValue;
         public int InteractValue;
-        public int TimeValue; // Temps perdu ou gagné
+        public int TimeValue;
         public Sprite icon;
         public bool isActive;
         public bool isActiveForever = false;
         public string ID;
 
-
+        // ✅ AJOUT ICI
+        public PnjData pnjData;
+        public PnjData pnjDataRangeUp;
     }
 }

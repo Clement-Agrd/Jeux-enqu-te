@@ -10,10 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c17d1e377fd6410298beaa3107680463, type: 3}
-  m_Name: PnjData 1
+  m_Name: Luc
   m_EditorClassIdentifier: Core::Core.Script.Core.Data.PnjData
-  Name: Paul
+  Name: Luc
+  GameObject: []
+  Accuse: 0
+  Range: 8
   objectDatas:
   - {fileID: 11400000, guid: 9cff35586b882d5488a3e110ff076047, type: 2}
   - {fileID: 11400000, guid: 0d053f011a140014799312d70edbaa65, type: 2}
-  Accuse: 105
+  idle: {fileID: 0}
+  talk: {fileID: 0}
+  angry: {fileID: 0}
+  happy: {fileID: 0}
+  sad: {fileID: 0}
+  surprise: {fileID: 0}

@@ -13,8 +13,6 @@ namespace GamePlay.Script.GamePlay.Object
     public class ObjetBase : MonoBehaviour,IInteract
     {
         public ObjectData objectData;
-        public PnjData pnjData;
-        public PnjData pnjDataRangeUp;
         private SaveData saveData;
         private int currentAccuse;
 
@@ -25,7 +23,8 @@ namespace GamePlay.Script.GamePlay.Object
         }
         void Start()
         { 
-            currentAccuse = pnjData.Accuse;
+            if (objectData.pnjData != null)
+                currentAccuse = objectData.pnjData.Accuse;
         }
 
         private void Update()
@@ -41,7 +40,10 @@ namespace GamePlay.Script.GamePlay.Object
             Debug.Log($"Is a {objectData.Name}");
 
             // Impact sur le PNJ
-            pnjDataRangeUp.Range += objectData.InteractValue;
+            if (objectData.pnjDataRangeUp != null)
+            {
+                objectData.pnjDataRangeUp.Range += objectData.InteractValue;
+            }
 
             // Ajout à l'inventaire
             Inventory.Instance.AddObject(objectData);

@@ -24,14 +24,18 @@ namespace GamePlay.Script.GamePlay.PNJ
 
         public void Awake()
         {
-            pnjData.Accuse = 0;
             CharaterSprite = GetComponent<SpriteRenderer>();
         }
 
         public void Start()
         {
+            Debug.Log(pnjData.name);
+            pnjData.Accuse = 0;
+            pnjData.Range = 0;
             Buttons.SetActive(false);
             CharaterSprite.sprite = pnjData.idle;
+            
+            if(Buttons!=null)return;
         }
 
         public void SetExpression(PnjData.AllExpression expr)

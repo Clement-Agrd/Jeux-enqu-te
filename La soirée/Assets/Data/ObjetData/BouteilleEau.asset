@@ -16,10 +16,13 @@ MonoBehaviour:
   Name: Bouteille louche
   Description: Vodka redbull
   HideDescription: Vodka redbull  cette bouteille apartien a ta mere
-  ShowingDescription: c'est la bouteille de ta darone
-  Value: 5
+  ShowingDescription: c'est la bouteille de ta luc
+  ShowValue: 5
+  InteractValue: 3
   TimeValue: 100
   icon: {fileID: 3497970726664498802, guid: 5311973cf71fd134495570d8515d09fc, type: 3}
-  isActive: 1
-  isActiveForever: 1
+  isActive: 0
+  isActiveForever: 0
   ID: 1
+  pnjData: {fileID: 11400000, guid: 781d81057231cfa4d9f0d668f5993112, type: 2}
+  pnjDataRangeUp: {fileID: 11400000, guid: 781d81057231cfa4d9f0d668f5993112, type: 2}

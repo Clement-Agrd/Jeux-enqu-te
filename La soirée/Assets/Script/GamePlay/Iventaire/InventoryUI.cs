@@ -87,6 +87,8 @@ public class InventoryUI : MonoBehaviour
         {
             if (obj.isActive)
             {
+                if (!obj.isActiveForever)
+                    obj.pnjDataRangeUp.Range += obj.ShowValue;
                 obj.isActiveForever = true;
                 itemDetailsPanel.SetActive(true);
                 previewImage.sprite = obj.icon;
