@@ -50,7 +50,7 @@ namespace GamePlay.Script.GamePlay.Object
             Inventory.Instance.AddObject(objectData);
             SaveData.Instance.AddDestroyedObject(objectData.ID);
 
-            timeManager.LooseTime(5);
+            timeManager.LooseTime(150);
             // Supprime l'objet de la scène
             Destroy(gameObject);
             

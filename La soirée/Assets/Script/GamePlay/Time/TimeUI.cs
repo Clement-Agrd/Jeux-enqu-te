@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
@@ -8,6 +9,11 @@ namespace GamePlay
     {
         [FormerlySerializedAs("timeScript")] [SerializeField] private TimeManager timeManagerScript;   // Référence vers le script Time
         [SerializeField] private Image timeCircle;  // L'image UI du fill radial
+
+        private void Start()
+        {
+            DontDestroyOnLoad(this);
+        }
 
         void Update()
         {

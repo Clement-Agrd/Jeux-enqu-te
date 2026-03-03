@@ -11,6 +11,7 @@ namespace GamePlay
         void Start()
         {
             currentTime = totalTime;
+            
         }   
         
         //action à appeller pour perdre du temps avec un int (valeur du temps perdu)
