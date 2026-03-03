@@ -202,6 +202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7730914226533458961}
   - component: {fileID: 6995559080728596731}
+  - component: {fileID: 4262160963548842730}
   m_Layer: 0
   m_Name: Time
   m_TagString: Untagged
@@ -239,3 +240,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: GamePlay::GamePlay.Time
   totalTime: 300
   currentTime: 300
+--- !u!114 &4262160963548842730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6772072500029431191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f49c0147a54a4e6481d582d3f124c8b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: GamePlay::GamePlay.TimeUI
+  timeManagerScript: {fileID: 6995559080728596731}
+  timeCircle: {fileID: 6580437656811954516}

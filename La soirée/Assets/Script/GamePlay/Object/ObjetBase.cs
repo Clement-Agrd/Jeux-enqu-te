@@ -12,6 +12,7 @@ namespace GamePlay.Script.GamePlay.Object
 {
     public class ObjetBase : MonoBehaviour,IInteract
     {
+        [SerializeField] private TimeManager timeManager;
         public ObjectData objectData;
         private SaveData saveData;
         private int currentAccuse;
@@ -38,7 +39,7 @@ namespace GamePlay.Script.GamePlay.Object
         public void Interact()
         {
             Debug.Log($"Is a {objectData.Name}");
-
+            
             // Impact sur le PNJ
             if (objectData.pnjDataRangeUp != null)
             {
@@ -49,22 +50,12 @@ namespace GamePlay.Script.GamePlay.Object
             Inventory.Instance.AddObject(objectData);
             SaveData.Instance.AddDestroyedObject(objectData.ID);
 
-            Value();
+            timeManager.LooseTime(5);
             // Supprime l'objet de la scène
             Destroy(gameObject);
             
         }
         
-        
-       
-        public void Value()
-        {
-            var timeManager = FindObjectOfType<TimeManager>();
-            if (timeManager != null)
-                timeManager.LooseTime(objectData.TimeValue);
-            else
-                Debug.LogWarning("TimeManager introuvable dans la scène.");
-        }
 
     }
 }
