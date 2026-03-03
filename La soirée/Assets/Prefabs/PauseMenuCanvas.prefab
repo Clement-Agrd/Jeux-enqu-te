@@ -361,6 +361,7 @@ GameObject:
   - component: {fileID: 7288808687334323982}
   - component: {fileID: 6628663411315698785}
   - component: {fileID: 4793135660056757157}
+  - component: {fileID: 5593344878287869372}
   m_Layer: 5
   m_Name: Resume
   m_TagString: Untagged
@@ -482,6 +483,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5593344878287869372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931384453505328670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a49a2680d1838a45a8aa2f9b93945a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Core::Core.DotweenButton
+  button: {fileID: 931384453505328670}
 --- !u!1 &1371664625050533084
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +644,7 @@ GameObject:
   - component: {fileID: 518523398018158822}
   - component: {fileID: 2583346001151626883}
   - component: {fileID: 3235699938611787881}
+  - component: {fileID: 3189901337656345639}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -751,6 +766,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3189901337656345639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488004882082178060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a49a2680d1838a45a8aa2f9b93945a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Core::Core.DotweenButton
+  button: {fileID: 1488004882082178060}
 --- !u!1 &2840547483601256670
 GameObject:
   m_ObjectHideFlags: 0
@@ -763,6 +791,7 @@ GameObject:
   - component: {fileID: 1469197884280941011}
   - component: {fileID: 2984210686458648306}
   - component: {fileID: 7259132730321747764}
+  - component: {fileID: 1838038603334667626}
   m_Layer: 5
   m_Name: Save
   m_TagString: Untagged
@@ -884,6 +913,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1838038603334667626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2840547483601256670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a49a2680d1838a45a8aa2f9b93945a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Core::Core.DotweenButton
+  button: {fileID: 2840547483601256670}
 --- !u!1 &3240139610929315123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1136,6 +1178,7 @@ GameObject:
   - component: {fileID: 1933450688416358665}
   - component: {fileID: 7248583907379502565}
   - component: {fileID: 497463094863291184}
+  - component: {fileID: 4247884418882748143}
   m_Layer: 5
   m_Name: Load
   m_TagString: Untagged
@@ -1257,6 +1300,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4247884418882748143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5181616379446563059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a49a2680d1838a45a8aa2f9b93945a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Core::Core.DotweenButton
+  button: {fileID: 5181616379446563059}
 --- !u!1 &7187020690982313619
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,6 +1580,7 @@ GameObject:
   - component: {fileID: 5888669245731643308}
   - component: {fileID: 6780775977829925121}
   - component: {fileID: 8334667484735125837}
+  - component: {fileID: 5115505106673214464}
   m_Layer: 5
   m_Name: Pause
   m_TagString: Untagged
@@ -1645,3 +1702,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &5115505106673214464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8990436839471956073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a49a2680d1838a45a8aa2f9b93945a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Core::Core.DotweenButton
+  button: {fileID: 0}

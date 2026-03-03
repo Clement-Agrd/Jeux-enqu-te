@@ -1,7 +1,9 @@
 {
     "name": "Core",
     "rootNamespace": "Core",
-    "references": [],
+    "references": [
+        ""
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
