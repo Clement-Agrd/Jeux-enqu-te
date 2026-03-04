@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7b43e7bfae0dafe49a4da1c8df7c41ad
+guid: 8662edc605e33dd45beb64a2ac521770
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4253528738099400236
-    second: PistolPNG_0
+      213: 8223305577009396306
+    second: Garage_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PistolPNG_0
+      name: Garage_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 59
-        width: 512
-        height: 394
+        x: 63
+        y: 483
+        width: 1922
+        height: 1082
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4d17bab162e68f4c0800000000000000
-      internalID: -4253528738099400236
+      spriteID: 25a32257adc0f1270800000000000000
+      internalID: 8223305577009396306
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PistolPNG_0: -4253528738099400236
+      Garage_0: 8223305577009396306
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

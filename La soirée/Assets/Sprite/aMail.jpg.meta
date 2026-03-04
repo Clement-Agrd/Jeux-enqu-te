@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6d96cf1cefcc132408de3a2805ff39bf
+guid: 3b874c3920062914e85a14c86238fd81
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6466696492965703890
-    second: AssaultGunPNG_0
+      213: -3872858250811103365
+    second: aMail_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AssaultGunPNG_0
+      name: aMail_0
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 0
-        width: 478
-        height: 512
+        width: 1080
+        height: 2340
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d03c75c2325eb950800000000000000
-      internalID: 6466696492965703890
+      spriteID: b77a6fea0f7d04ac0800000000000000
+      internalID: -3872858250811103365
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      AssaultGunPNG_0: 6466696492965703890
+      aMail_0: -3872858250811103365
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

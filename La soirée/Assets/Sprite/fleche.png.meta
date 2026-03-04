@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 258f9a4a07483ca41aef46fd2b67c9f1
+guid: 7df0466bbaf6020428ba7afb18e44e8e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6132341695320157042
-    second: MeatPNG_0
+      213: 6807138530303061893
+    second: fleche_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MeatPNG_0
+      name: fleche_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 75
-        width: 512
-        height: 362
+        x: 5
+        y: 79
+        width: 502
+        height: 354
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e841029f7bb85eaa0800000000000000
-      internalID: -6132341695320157042
+      spriteID: 58fa6937d60d77e50800000000000000
+      internalID: 6807138530303061893
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MeatPNG_0: -6132341695320157042
+      fleche_0: 6807138530303061893
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

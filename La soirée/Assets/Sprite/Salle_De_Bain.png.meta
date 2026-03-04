@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 37c3ae0624a80d24dbcba02fe0375228
+guid: b2103f284f86bb644aae07af8a465b85
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7245108679220046992
-    second: StealPNG_0
+      213: -7825729591244554817
+    second: Salle_De_Bain_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: StealPNG_0
+      name: Salle_De_Bain_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 0
-        width: 454
-        height: 512
+        x: 62
+        y: 479
+        width: 1925
+        height: 1086
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0735dffda04347b90800000000000000
-      internalID: -7245108679220046992
+      spriteID: fbdfa95366c656390800000000000000
+      internalID: -7825729591244554817
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      StealPNG_0: -7245108679220046992
+      Salle_De_Bain_0: -7825729591244554817
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
