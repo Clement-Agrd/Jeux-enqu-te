@@ -24,6 +24,7 @@ namespace GamePlay
 
         private int screenSlide = 0;
         [SerializeField] private float speed;
+        public static AppPhone instance;
 
 
         private void Start()

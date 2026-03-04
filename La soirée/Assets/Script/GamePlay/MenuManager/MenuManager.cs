@@ -15,6 +15,8 @@ namespace GamePlay
         [SerializeField] private AudioSource mainSound;
         [SerializeField] private AudioSource secondSound;
 
+        [SerializeField] private boolIsPickUp tel;
+
         private void Start()
         {
 	        pauseMenuPrefab.SetActive(false);
@@ -25,6 +27,7 @@ namespace GamePlay
         {
             SceneManager.LoadScene("Salon");
             mainSound.Play();
+            tel.tel=false;
         }
 
         public void QuitGame()

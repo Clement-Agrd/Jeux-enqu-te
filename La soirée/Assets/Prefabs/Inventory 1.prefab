@@ -222,7 +222,6 @@ GameObject:
   - component: {fileID: 7830938749759778021}
   - component: {fileID: 2036435617889787791}
   - component: {fileID: 2901848916482687774}
-  - component: {fileID: 648199243505865008}
   m_Layer: 5
   m_Name: Ui
   m_TagString: Untagged
@@ -313,20 +312,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &648199243505865008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 982624370187810248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f49c0147a54a4e6481d582d3f124c8b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: GamePlay::GamePlay.TimeUI
-  timeManagerScript: {fileID: 0}
-  timeCircle: {fileID: 0}
 --- !u!1 &1001177729656244051
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,15 +567,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GridLayoutGroup
   m_Padding:
-    m_Left: 0
+    m_Left: 65
     m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
+    m_Top: 30
+    m_Bottom: 30
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 50, y: 50}
-  m_Spacing: {x: 0, y: 0}
+  m_CellSize: {x: 50, y: 90}
+  m_Spacing: {x: 10, y: 10}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!1 &7111816450220351506
@@ -642,6 +627,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: GamePlay::Inventory
   objectData: {fileID: 0}
   objects: []
+  tel: {fileID: 11400000, guid: 76900f772393ea64e8658819b73fb3cf, type: 2}
 --- !u!1 &7139891658258032597
 GameObject:
   m_ObjectHideFlags: 0

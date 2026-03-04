@@ -5,12 +5,14 @@ namespace GamePlay
     public class TimeManager : MonoBehaviour
     {
         [SerializeField] public int totalTime = 300;
-        
+        public static TimeManager instance;
         public int currentTime;
+        
 
         void Start()
         {
             currentTime = totalTime;
+            DontDestroyOnLoad(gameObject);
             
         }   
         

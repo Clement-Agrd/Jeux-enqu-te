@@ -16,6 +16,7 @@ namespace GamePlay.Script.GamePlay.Object
         public ObjectData objectData;
         private SaveData saveData;
         private int currentAccuse;
+        public bool tel =  false;
 
         void Awake()
         {
@@ -26,6 +27,7 @@ namespace GamePlay.Script.GamePlay.Object
         { 
             if (objectData.pnjData != null)
                 currentAccuse = objectData.pnjData.Accuse;
+            
         }
 
         private void Update()
@@ -35,9 +37,16 @@ namespace GamePlay.Script.GamePlay.Object
                 Destroy(gameObject);
 
             }
+            timeManager  = FindAnyObjectByType<TimeManager>();
         }
         public void Interact()
         {
+            if (int.Parse(objectData.ID) == 55)
+            {
+                tel = true;
+                Debug.Log("AAAAAAAAAA");
+            }
+            
             Debug.Log($"Is a {objectData.Name}");
             
             // Impact sur le PNJ
