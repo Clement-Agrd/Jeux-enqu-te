@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/SceneFinale/Menu.unity
     guid: b73c8384410a109488893499ed893e14
   - enabled: 1
+    path: Assets/SceneFinale/Intro.unity
+    guid: 1f70dea03749cc5489da99a9616a75d6
+  - enabled: 1
     path: Assets/SceneFinale/Salon.unity
     guid: 05581857e58d31a46bbb476a11438522
   - enabled: 1

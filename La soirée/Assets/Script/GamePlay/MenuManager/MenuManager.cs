@@ -25,7 +25,7 @@ namespace GamePlay
         }
         public void StartButton()
         {
-            SceneManager.LoadScene("Salon");
+            SceneManager.LoadScene("Intro");
             mainSound.Play();
             tel.tel=false;
         }

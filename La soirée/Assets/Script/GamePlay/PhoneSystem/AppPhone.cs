@@ -17,6 +17,8 @@ namespace GamePlay
         [Header("Touche tel")]
         [SerializeField] private GameObject toucheTel;
 
+        [SerializeField] private TimeManager time;
+
         private bool openMessage = false;
         private bool openNote = false;
         private bool openTiktok = false;
@@ -55,6 +57,8 @@ namespace GamePlay
                 iconMail.transform.localScale = Vector3.Lerp(iconMail.transform.localScale, Vector3.one, Time.deltaTime*speed);
             if (openMessage)
                 iconMessage.transform.localScale = Vector3.Lerp(iconMessage.transform.localScale, Vector3.one, Time.deltaTime * speed);
+            
+            time  = FindAnyObjectByType<TimeManager>();
 
         }
 
@@ -90,7 +94,7 @@ namespace GamePlay
                 
             }
             
-            //LostTime
+            time.LooseTime(10);
         }
 //*/*******************
         public void AppMassage()
