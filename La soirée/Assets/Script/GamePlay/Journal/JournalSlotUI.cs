@@ -2,6 +2,7 @@ using Core;
 using GamePlay.Script.GamePlay.Interface;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 namespace GamePlay
@@ -9,6 +10,7 @@ namespace GamePlay
     public class JournalSlotUI : MonoBehaviour
     {
         public JournalData journal;
+        private bool IsOpen;
 
         [Header("UI")]
         [SerializeField]private Image icon;
