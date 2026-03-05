@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4496285932135287498}
   - component: {fileID: 624286241318036230}
   - component: {fileID: 7900849338291877688}
-  - component: {fileID: 4649924377323662090}
   - component: {fileID: 1970040774863516041}
   m_Layer: 0
   m_Name: GameManager
@@ -109,25 +108,15 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 3c60ca33-18c7-45ae-8398-e9461f7ce776
     m_ActionName: Player/Load
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9c4fd8a6-6573-454e-8ea5-9c00c56c290d
+    m_ActionName: 'Player/Pause[/Keyboard/tab]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &4649924377323662090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8947162657136815409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 417b1928143cb69408a53679584965f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: GamePlay::GamePlay.TimeManager
-  totalTime: 300
-  currentTime: 300
 --- !u!114 &1970040774863516041
 MonoBehaviour:
   m_ObjectHideFlags: 0

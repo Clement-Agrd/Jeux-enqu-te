@@ -9,15 +9,7 @@ namespace GamePlay
     {
         [FormerlySerializedAs("timeScript")] [SerializeField] private TimeManager timeManagerScript;   // Référence vers le script Time
         [SerializeField] private Image timeCircle;  // L'image UI du fill radial
-        
-        public static TimeUI Instance;
 
-        private void Awake()
-        {
-                
-            DontDestroyOnLoad(gameObject);
-            
-        }
 
         void Update()
         {

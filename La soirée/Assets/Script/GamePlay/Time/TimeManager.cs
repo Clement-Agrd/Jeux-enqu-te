@@ -4,16 +4,30 @@ namespace GamePlay
 {
     public class TimeManager : MonoBehaviour
     {
-        [SerializeField] public int totalTime = 300;
-        public static TimeManager instance;
-        public int currentTime;
-        
+        public static TimeManager Instance;
+
+        public int totalTime = 300;
+        public int currentTime = 300;
+
+        private void Awake()
+        {
+            Debug.Log("TimeManager Awake sur : " + gameObject.name);
+
+            if (Instance == null)
+            {
+                Instance = this;
+                DontDestroyOnLoad(gameObject);
+            }
+            else
+            {
+                Debug.Log("Duplicate TimeManager détruit");
+                Destroy(gameObject);
+            }
+        }
 
         void Start()
         {
             currentTime = totalTime;
-            DontDestroyOnLoad(gameObject);
-            
         }   
         
         //action à appeller pour perdre du temps avec un int (valeur du temps perdu)
