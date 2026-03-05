@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17d1e377fd6410298beaa3107680463, type: 3}
+  m_Name: Gregory
+  m_EditorClassIdentifier: Core::Core.Script.Core.Data.PnjData
+  Name: 
+  GameObject: []
+  Accuse: 0
+  Range: 0
+  objectDatas:
+  - {fileID: 11400000, guid: 526d9eb96b36ace4bb1889c17fd07b05, type: 2}
+  - {fileID: 11400000, guid: a0ca5de524e57c9488570720c88ab28a, type: 2}
+  idle: {fileID: 2838420435087454388, guid: 2f10ede4d9c00004383c74174e942aad, type: 3}
+  talk: {fileID: 8194954710033385323, guid: b1287bed1a2b2cf44880faa9d3acb7b6, type: 3}
+  angry: {fileID: 8865756066731955310, guid: 6597b1f2bbb5f7b4bbaccedee895452a, type: 3}
+  happy: {fileID: -3290165763919516665, guid: c815fb3b5978eb44b914e2eec4aa0966, type: 3}
+  sad: {fileID: -2861027343794010490, guid: 2ca2adb15fe1e7443884e5aeeb751816, type: 3}
+  surprise: {fileID: 4364390330591891853, guid: 665cd2f673be18e4680989c530b1a7ff, type: 3}

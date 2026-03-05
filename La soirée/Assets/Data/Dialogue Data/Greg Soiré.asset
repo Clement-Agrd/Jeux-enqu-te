@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
+  m_Name: "Greg Soir\xE9"
+  m_EditorClassIdentifier: Core::Core.DialogueData
+  AddRange: 5
+  pnj: {fileID: 11400000, guid: 914c17825451fd04c87bacc329c17294, type: 2}
+  AddDialogue:
+  - expression: 2
+    text: "Je suis arriv\xE9 avec les autres. Pendant le d\xEEner, Kenny a commenc\xE9
+      \xE0 me provoquer."
+    textSpeed: 1
+  - expression: 4
+    text: "J\u2019ai essay\xE9 de l'ignorer,  m\xEAme si j'\xE9tais pas bien. Apr\xE8s
+      \xE7a, je suis all\xE9 prendre l\u2019air dans la cuisine, puis je suis rest\xE9
+      seul un moment pour me calmer."
+    textSpeed: 1

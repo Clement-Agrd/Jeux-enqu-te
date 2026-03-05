@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad00572624b723347955aa5681bef4c5, type: 3}
+  m_Name: "Bouteilles d\u2019alcool vides"
+  m_EditorClassIdentifier: Core::Core.Script.Core.Data.ObjectData
+  ObjetPrefab: {fileID: 0}
+  Name: "Bouteilles d\u2019alcool vides "
+  Description: Une bouteille d'alcool vide
+  HideDescription: 'Une bouteille d''alcool vide, karl la fini. '
+  ShowingDescription: Karl a beaucoup hier. C'est lui qui l'a fini.
+  ShowingDescriptionself: "J\u2019ai beaucoup bu. J\u2019\xE9tais meme incapable
+    de tenir debout. "
+  ShowValue: 5
+  InteractValue: 1
+  TimeValue: 5
+  icon: {fileID: 3497970726664498802, guid: 773819a5ddef9ce4c90d3b05044ddb49, type: 3}
+  isActive: 1
+  isActiveForever: 1
+  isActiveSelf: 0
+  ID: 1
+  PnjDataSelf: {fileID: 11400000, guid: 51a618b21c814c34d8529c9f24d356f0, type: 2}
+  pnjDataRangeUp: {fileID: 11400000, guid: 51a618b21c814c34d8529c9f24d356f0, type: 2}

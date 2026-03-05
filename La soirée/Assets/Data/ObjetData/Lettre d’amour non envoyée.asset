@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad00572624b723347955aa5681bef4c5, type: 3}
+  m_Name: "Lettre d\u2019amour non envoy\xE9e"
+  m_EditorClassIdentifier: Core::Core.Script.Core.Data.ObjectData
+  ObjetPrefab: {fileID: 0}
+  Name: "Lettre d\u2019amour non envoy\xE9e "
+  Description: Une lettre d'amour
+  HideDescription: "Une lettre d'amour de karl pour Iness. Il n'a pas os\xE9e lui
+    donner"
+  ShowingDescription: karl voulais declarer sa flamme a iness...mais il n'a pas eu
+    le courrage
+  ShowingDescriptionself: "Oui\u2026 c\u2019est moi qui l\u2019ai \xE9crite cette
+    lettre. Je n\u2019ai jamais os\xE9dire \xE0 Iness que je suis amoureux d'elle. "
+  ShowValue: -2
+  InteractValue: 3
+  TimeValue: 5
+  icon: {fileID: -378970675149658776, guid: 0651d121031b4a74d806ceb34844fadc, type: 3}
+  isActive: 0
+  isActiveForever: 0
+  isActiveSelf: 0
+  ID: 2
+  PnjDataSelf: {fileID: 11400000, guid: 51a618b21c814c34d8529c9f24d356f0, type: 2}
+  pnjDataRangeUp: {fileID: 11400000, guid: 51a618b21c814c34d8529c9f24d356f0, type: 2}

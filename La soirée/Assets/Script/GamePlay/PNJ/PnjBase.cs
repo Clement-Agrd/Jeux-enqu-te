@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Core.Script.Core.Data;
 using GamePlay.Script.GamePlay.Interface;
 using GamePlay.Script.GamePlay.Mouse2D;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -18,6 +19,11 @@ namespace GamePlay.Script.GamePlay.PNJ
         public SpriteRenderer CharaterSprite;
         private List<Inventory> inventory;
         private float Range;
+        public bool talking;
+        
+        [Header("Position du sprite")]
+        private Vector3 StartPosition;
+        public Vector3 talkPosition;
 
 		
         public DialogueManager dialogueManager;
@@ -34,6 +40,7 @@ namespace GamePlay.Script.GamePlay.PNJ
             pnjData.Range = 0;
             Buttons.SetActive(false);
             CharaterSprite.sprite = pnjData.idle;
+            StartPosition = transform.position;
             
             if(Buttons!=null)return;
         }
@@ -44,8 +51,17 @@ namespace GamePlay.Script.GamePlay.PNJ
         }
         public void Interact()
         {
-            Debug.Log($"I am  {pnjData.name}");
-            Buttons.SetActive(true);
+            if (talking == false)
+            {
+                Debug.Log($"I am  {pnjData.name}");
+                Buttons.SetActive(true);
+            }
+        }
+
+        public void QuitInteract(InventoryUI inventory)
+        {
+            Buttons.SetActive(false);
+            inventory.Quit();
         }
 
         public void ResetExpression()
@@ -58,6 +74,15 @@ namespace GamePlay.Script.GamePlay.PNJ
             inventory.ToggleInventory(true);
             foreach ( ObjectData objectData in Inventory.Instance.objects)
             {
+                if (objectData.PnjDataSelf==pnjData)
+                {
+                    objectData.isActiveSelf = true;
+                }
+                else
+                {
+                    objectData.isActiveSelf = false;
+                }
+                
                 if (pnjData.objectDatas.Contains(objectData))
                 {
                     objectData.isActive = true;
@@ -75,8 +100,16 @@ namespace GamePlay.Script.GamePlay.PNJ
         {
             Debug.Log("Talk");
             Buttons.SetActive(false);
+            talking = true;
+            transform.position = talkPosition;
 			
             dialogueManager.ShowChoice();
+        }
+
+        public void StopTalk()
+        {
+            transform.position = StartPosition;
+            talking = false;
         }
 
         public void Accuse()
@@ -91,7 +124,6 @@ namespace GamePlay.Script.GamePlay.PNJ
                 Debug.Log("C'est moi");
                 //Play video de fin 
             }
-			
         }
     }
 }

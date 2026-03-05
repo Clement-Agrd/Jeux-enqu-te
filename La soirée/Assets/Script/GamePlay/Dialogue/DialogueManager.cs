@@ -71,6 +71,7 @@ namespace GamePlay
             {
                 choice.SetActive(false);
             }
+            pnj.StopTalk();
         }
         
         public void End()

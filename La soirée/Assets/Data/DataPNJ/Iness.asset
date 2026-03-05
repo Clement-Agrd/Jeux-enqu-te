@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17d1e377fd6410298beaa3107680463, type: 3}
+  m_Name: Iness
+  m_EditorClassIdentifier: Core::Core.Script.Core.Data.PnjData
+  Name: Iness
+  GameObject: []
+  Accuse: 0
+  Range: 0
+  objectDatas: []
+  idle: {fileID: -407056544380762099, guid: f8546ebd5502e3846a94489123a7cd7b, type: 3}
+  talk: {fileID: 3159583159079973722, guid: 03979c4cabd11c14882c7dce110cc436, type: 3}
+  angry: {fileID: -1433242737770771367, guid: ecceaf3b6f1fe5d4c955068cb589cc9d, type: 3}
+  happy: {fileID: 8219154665802045611, guid: 5155eaa909fc3a94994ff48045cc71d7, type: 3}
+  sad: {fileID: 5961036314753513312, guid: 66aafe1eae10a8c4690b0f2415ecbaaf, type: 3}
+  surprise: {fileID: -2457789061153741708, guid: 6b5bd3bcfc0630743b758950c2ebe69d, type: 3}

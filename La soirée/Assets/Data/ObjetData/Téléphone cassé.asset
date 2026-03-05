@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad00572624b723347955aa5681bef4c5, type: 3}
+  m_Name: "T\xE9l\xE9phone cass\xE9"
+  m_EditorClassIdentifier: Core::Core.Script.Core.Data.ObjectData
+  ObjetPrefab: {fileID: 0}
+  Name: "T\xE9l\xE9phone cass\xE9"
+  Description: "Un t\xE9l\xE9phone rose cass\xE9"
+  HideDescription: "le t\xE9l\xE9phone cass\xE9 de Iness. Kenny l'a bris\xE9 pendant
+    la dispute "
+  ShowingDescription: "C'est le telephone de Ines, elle ne voulais plus me parler
+    apres ce qu'il c'est pass\xE9 entre Kenny et moi. "
+  ShowingDescriptionself: "Kenny a cass\xE9 mon t\xE9l\xE9phone pendant qu\u2019on
+    se disputait. "
+  ShowValue: 5
+  InteractValue: 5
+  TimeValue: 5
+  icon: {fileID: 882672711578293438, guid: d4c91c750136b94449b22b070b89f6c7, type: 3}
+  isActive: 0
+  isActiveForever: 0
+  isActiveSelf: 0
+  ID: 7
+  PnjDataSelf: {fileID: 11400000, guid: 781d81057231cfa4d9f0d668f5993112, type: 2}
+  pnjDataRangeUp: {fileID: 11400000, guid: 781d81057231cfa4d9f0d668f5993112, type: 2}

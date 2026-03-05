@@ -11,16 +11,18 @@ namespace Core.Script.Core.Data
         public string Description;
         public string HideDescription;
         public string ShowingDescription;
+        public string ShowingDescriptionself;
         public int ShowValue;
         public int InteractValue;
         public int TimeValue;
         public Sprite icon;
         public bool isActive;
         public bool isActiveForever = false;
+        public bool isActiveSelf = false;
         public string ID;
 
         // ✅ AJOUT ICI
-        public PnjData pnjData;
+        public PnjData PnjDataSelf;
         public PnjData pnjDataRangeUp;
     }
 }

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
+  m_Name: Leo Custom
+  m_EditorClassIdentifier: Core::Core.DialogueData
+  AddRange: 5
+  pnj: {fileID: 11400000, guid: 5e17ddb9b4be8ab4bae6ddd0a654adde, type: 2}
+  AddDialogue:
+  - expression: 5
+    text: "J'ai rejoint le groupe il n'y a pas tr\xE8s longtemps, j'ai \xE9t\xE9
+      rapidement accept\xE9 dans le groupe."
+    textSpeed: 1

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17d1e377fd6410298beaa3107680463, type: 3}
+  m_Name: Leo
+  m_EditorClassIdentifier: Core::Core.Script.Core.Data.PnjData
+  Name: Leo
+  GameObject: []
+  Accuse: 0
+  Range: 0
+  objectDatas: []
+  idle: {fileID: 2453202869773009610, guid: 2cf3d29b464428940b3f7a27b72593b1, type: 3}
+  talk: {fileID: -104984363522313789, guid: 48c10903625567f4d8400686d460fb3f, type: 3}
+  angry: {fileID: -203346961122332265, guid: e57ad6d7d7ce7e547b9b6e16107cfd90, type: 3}
+  happy: {fileID: -7705068032824956934, guid: ad4896d898496244cadb9b1d06208b54, type: 3}
+  sad: {fileID: 2681030562022482908, guid: 9a13c8ed73ec81245a9ef187b363b4ab, type: 3}
+  surprise: {fileID: -6257122648299911316, guid: d22bd839f4f23e7458c3112d50f44716, type: 3}

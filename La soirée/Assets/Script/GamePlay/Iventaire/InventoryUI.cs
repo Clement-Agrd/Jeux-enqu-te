@@ -14,10 +14,6 @@ public class InventoryUI : MonoBehaviour
     public GameObject itemButtonPrefab;    // Bouton d'objet
     public GameObject itemDetailsPanel; // Image + description
     
-    [Header("Dialogue")]
-    public GameObject itemDetailsPanelObject;
-    public GameObject previewImageObject;
-    public TMP_Text descriptionTextObject;
     
     
     [Header("Preview")]
@@ -30,6 +26,11 @@ public class InventoryUI : MonoBehaviour
         inventoryPanel.SetActive(false); // Inventaire fermé au début
         DontDestroyOnLoad(this);
         
+    }
+
+    public void Quit()
+    {
+        inventoryPanel.SetActive(false);
     }
 
     //Sera remplacé par un bouton
@@ -85,6 +86,17 @@ public class InventoryUI : MonoBehaviour
         string Id;
         if (ShowingItem)
         {
+            if (obj.isActiveSelf)
+            {
+                if (!obj.isActiveForever)
+                    obj.pnjDataRangeUp.Range += obj.ShowValue;
+                obj.isActiveForever = true;
+                itemDetailsPanel.SetActive(true);
+                previewImage.sprite = obj.icon;
+                descriptionText.text = obj.ShowingDescriptionself;
+                return;
+            }
+                
             if (obj.isActive)
             {
                 if (!obj.isActiveForever)

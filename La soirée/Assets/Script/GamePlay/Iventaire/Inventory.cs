@@ -15,7 +15,6 @@ public class Inventory : MonoBehaviour
     // Liste des objets ramassés
     public List<ObjectData> objects = new List<ObjectData>();
     private bool added = false;
-    [SerializeField] private boolIsPickUp tel;
 
     void Awake()
     {
@@ -37,12 +36,9 @@ public class Inventory : MonoBehaviour
     public void AddObject(ObjectData data)
     {
         objects.Add(data);
-
-        if (data.ID == "55")
-        {
-            tel.tel = true;
-        }
-
+        Debug.Log($"Objet ajouté à l'inventaire : {data.Name}");
+        
+        
     }
     
     public void LoadFromSave(List<string> savedIDs)

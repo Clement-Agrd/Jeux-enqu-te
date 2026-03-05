@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
+  m_Name: Iness Custom
+  m_EditorClassIdentifier: Core::Core.DialogueData
+  AddRange: 3
+  pnj: {fileID: 11400000, guid: 781d81057231cfa4d9f0d668f5993112, type: 2}
+  AddDialogue:
+  - expression: 2
+    text: "Je me suis disput\xE9 avec Kenny, c'\xE9tait violent mais pas \xE0 ce
+      point, je suis partie dans ma chambre pleurer."
+    textSpeed: 1

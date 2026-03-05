@@ -17,7 +17,7 @@ MonoBehaviour:
   Accuse: 0
   Range: 0
   objectDatas:
-  - {fileID: 11400000, guid: a0ca5de524e57c9488570720c88ab28a, type: 2}
+  - {fileID: 11400000, guid: e6e0b7f58147d524c988498645fb1bbf, type: 2}
   idle: {fileID: -7739649682637728221, guid: bf3a6dd5b56ca8042b06c05a254979b5, type: 3}
   talk: {fileID: -7835740604882231108, guid: 1a05156078431604f94b7705f9471085, type: 3}
   angry: {fileID: -6226308865813368889, guid: c2c66c571c9e28647ac2a2204f201678, type: 3}

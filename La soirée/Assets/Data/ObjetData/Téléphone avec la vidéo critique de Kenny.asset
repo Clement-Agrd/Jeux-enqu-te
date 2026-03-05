@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad00572624b723347955aa5681bef4c5, type: 3}
+  m_Name: "T\xE9l\xE9phone avec la vid\xE9o critique de Kenny"
+  m_EditorClassIdentifier: Core::Core.Script.Core.Data.ObjectData
+  ObjetPrefab: {fileID: 0}
+  Name: "T\xE9l\xE9phone deverouiller"
+  Description: "T\xE9l\xE9phone deverouiller. Je pourrais peut-\xEAtre trouver des
+    indice."
+  HideDescription: "T\xE9l\xE9phone deverouiller. Il appartien a L\xE9o, il semble
+    stress\xE9 \xE0 l'id\xE9e de fouiller dedans."
+  ShowingDescription: ..
+  ShowingDescriptionself: "C'est mon telephone! O\xF9 l'a tu trouv\xE9 ? tu ne l'a
+    pas fouiller ?"
+  ShowValue: 9
+  InteractValue: 5
+  TimeValue: 5
+  icon: {fileID: 0}
+  isActive: 0
+  isActiveForever: 0
+  isActiveSelf: 0
+  ID: 55
+  PnjDataSelf: {fileID: 11400000, guid: 5e17ddb9b4be8ab4bae6ddd0a654adde, type: 2}
+  pnjDataRangeUp: {fileID: 11400000, guid: 5e17ddb9b4be8ab4bae6ddd0a654adde, type: 2}

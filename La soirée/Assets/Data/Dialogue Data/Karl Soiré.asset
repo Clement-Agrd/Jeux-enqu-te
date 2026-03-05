@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
+  m_Name: "Karl Soir\xE9"
+  m_EditorClassIdentifier: Core::Core.DialogueData
+  AddRange: 5
+  pnj: {fileID: 11400000, guid: 781d81057231cfa4d9f0d668f5993112, type: 2}
+  AddDialogue:
+  - expression: 1
+    text: "J\u2019ai pass\xE9 la soir\xE9e \xE0 boire.\r\n"
+    textSpeed: 1
+  - expression: 4
+    text: "J\u2019ai vu la dispute \xE9clater entre In\xE8s et Kenny, \xE7a a mis
+      tout le monde mal \xE0 l\u2019aise."
+    textSpeed: 1
+  - expression: 4
+    text: "Apr\xE8s le d\xEEner, j'ai continu\xE9 a boire encore un peu. Je voulais
+      me donner du courage."
+    textSpeed: 1

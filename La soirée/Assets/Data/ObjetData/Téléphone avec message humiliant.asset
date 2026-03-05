@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad00572624b723347955aa5681bef4c5, type: 3}
+  m_Name: "T\xE9l\xE9phone avec message humiliant"
+  m_EditorClassIdentifier: Core::Core.Script.Core.Data.ObjectData
+  ObjetPrefab: {fileID: 0}
+  Name: "T\xE9l\xE9phone avec message humiliant "
+  Description: "Un t\xE9l\xE9phone avec des message humiliant venant de kenny"
+  HideDescription: "Un t\xE9l\xE9phone avec des message humiliant venant de kenny.
+    Il appratient a Gregory"
+  ShowingDescription: "C\u2019est celui de Gregory. Kenny l\u2019avait encore provoqu\xE9
+    pendant le d\xEEner. "
+  ShowingDescriptionself: "C'est mon t\xE9l\xE9phone. Kenny m'envoyait souvent ce
+    genre de messages humilliant. "
+  ShowValue: 5
+  InteractValue: 5
+  TimeValue: 5
+  icon: {fileID: 6782725070478774244, guid: 6d914db403f03e1449fb2871680ad242, type: 3}
+  isActive: 0
+  isActiveForever: 0
+  isActiveSelf: 0
+  ID: 6
+  PnjDataSelf: {fileID: 11400000, guid: 914c17825451fd04c87bacc329c17294, type: 2}
+  pnjDataRangeUp: {fileID: 11400000, guid: 914c17825451fd04c87bacc329c17294, type: 2}

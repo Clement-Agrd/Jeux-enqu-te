@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad00572624b723347955aa5681bef4c5, type: 3}
+  m_Name: PC de Leo avec recherche de bug
+  m_EditorClassIdentifier: Core::Core.ObjetData
+  ObjetPrefab: {fileID: 7063085775375782563, guid: 850a230150d24fc4487537086cca9888, type: 3}
+  Name: Ordinateur portable
+  Description: Un ordinateur portable
+  HideDescription: PC de Leo avec recherche de bug sur les robot comme Zurg
+  ShowingDescription: ..
+  ShowingDescriptionself: "C'est mon ordinateur, j'ai chercher des raison \xE0 l'accident.
+    J'ai trouv\xE9 un bug avec le robot qui le fais pousser des gens dans l'escalier.  "
+  ShowValue: 5
+  InteractValue: 5
+  TimeValue: 5
+  icon: {fileID: -3910763001397647314, guid: f54470182f9ce8d42a41b2a1cf7ee388, type: 3}
+  isActive: 1
+  isActiveForever: 0
+  isActiveSelf: 0
+  ID: 4
+  PnjDataSelf: {fileID: 11400000, guid: 5e17ddb9b4be8ab4bae6ddd0a654adde, type: 2}
+  pnjDataRangeUp: {fileID: 11400000, guid: 1af71194974a4734ead1f4caa9240b2c, type: 2}
