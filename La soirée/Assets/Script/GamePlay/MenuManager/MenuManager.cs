@@ -38,7 +38,6 @@ namespace GamePlay
 
         public void QuitButton()
         {
-	        startButton.SetActive(false);
 	        pauseMenuPrefab.gameObject.SetActive(false);
 	        Time.timeScale = 1;
         }
@@ -54,19 +53,8 @@ namespace GamePlay
         public void MenuButton()
         {
 	        mainSound.Play();
-	        Destroy(TimeManager.Instance.gameObject);
 	        SceneManager.LoadScene("Menu");
         }
         
-        public static void ResetSession()
-        {
-	        foreach (var obj in FindObjectsOfType<MonoBehaviour>())
-	        {
-		        if (obj.gameObject.scene.name == "DontDestroyOnLoad")
-		        {
-			        Destroy(obj.gameObject);
-		        }
-	        }
-        }
     }
 }

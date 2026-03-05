@@ -12,9 +12,23 @@ namespace GamePlay
         [SerializeField] private List<PnjData> pnjDatas = new List<PnjData>();
         private PnjData pnjData;
 
+        [SerializeField] private GameObject GregoryEnd;
+        [SerializeField] private GameObject KarlEnd;
+        [SerializeField] private GameObject DanielleEnd;
+        [SerializeField] private GameObject InessEnd;
+        [SerializeField] private GameObject LeoEnd;
+        [SerializeField] private GameObject CB12End;
+
         private void Start()
         {
             LostScreen.SetActive(false);
+            
+            GregoryEnd.SetActive(false);
+            KarlEnd.SetActive(false);
+            DanielleEnd.SetActive(false);
+            InessEnd.SetActive(false);
+            LeoEnd.SetActive(false);
+            CB12End.SetActive(false);
         }
         public void Add(PnjData pnjDataz)
         {
@@ -46,8 +60,42 @@ namespace GamePlay
             }
             else
             {
+                EndScreen();
                 Debug.Log("C'est moi");
                 //Play video de fin 
+            }
+        }
+
+        private void EndScreen()
+        {
+            if (pnjData.name == "Gregory")
+            {
+                GregoryEnd.SetActive(true);
+            }
+
+            if (pnjData.name == "Karl")
+            {
+                KarlEnd.SetActive(true);
+            }
+
+            if (pnjData.name == "Danielle")
+            {
+                DanielleEnd.SetActive(true);
+            }
+
+            if (pnjData.name == "Iness")
+            {
+                InessEnd.SetActive(true);
+            }
+
+            if (pnjData.name == "Leo")
+            {
+                LeoEnd.SetActive(true);
+            }
+
+            if (pnjData.name == "CB12")
+            {
+                CB12End.SetActive(true);
             }
         }
     }
