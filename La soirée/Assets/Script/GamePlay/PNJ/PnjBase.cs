@@ -117,19 +117,6 @@ namespace GamePlay.Script.GamePlay.PNJ
             talking = false;
         }
 
-        public void Accuse()
-        {
-			
-            if (pnjData.Range <10)
-            {
-                Debug.Log("Non c'est pas moi");
-            }
-            else
-            {
-                Debug.Log("C'est moi");
-                //Play video de fin 
-            }
-        }
         
     }
 }
