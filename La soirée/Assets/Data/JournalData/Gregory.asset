@@ -17,5 +17,5 @@ MonoBehaviour:
   descriptions:
   - titre: 
     ID: 30
-    description: "Gr\xE9gory est un ami de Karl. C'est Karl qui l'a pr\xE9senter
-      a Kenny"
+    description: "Gr\xE9gory est un ami de Karl. C\u2019est Karl qui l\u2019a pr\xE9sent\xE9
+      \xE0 Kenny."

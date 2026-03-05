@@ -17,4 +17,5 @@ MonoBehaviour:
   descriptions:
   - titre: 
     ID: 30
-    description: "Danielle est une ami de kenny. c'est une fille timide et resev\xE9e."
+    description: "Danielle est une amie de Kenny. C\u2019est une fille timide et
+      r\xE9serv\xE9e."

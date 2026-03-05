@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: edf21cdef1db1a4429de8b58143745d9, type: 3}
-  m_Name: Danielle 3
+  m_Name: Zurg CB12
   m_EditorClassIdentifier: Core::Core.JournalData
-  icon: {fileID: -7739649682637728221, guid: bf3a6dd5b56ca8042b06c05a254979b5, type: 3}
-  name: Danielle
+  icon: {fileID: 597183680056258578, guid: 257c8a6118ee5874c97de28ee9c43dbe, type: 3}
+  name: Zurg CB12
   descriptions:
   - titre: 
     ID: 30
-    description: Salut je suis George
+    description: "Zurg CB12 est un robot auxiliaire qui parle. Il passe aussi l\u2019aspirateur."

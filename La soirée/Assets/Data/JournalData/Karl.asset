@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: edf21cdef1db1a4429de8b58143745d9, type: 3}
-  m_Name: Danielle 2
+  m_Name: Karl
   m_EditorClassIdentifier: Core::Core.JournalData
-  icon: {fileID: 3963544619746436156, guid: 1721caae68c9d6047b5ec1e1e5998ad5, type: 3}
-  name: Kenny
+  icon: {fileID: -2723611618866421462, guid: 4343ec8b63a99e747aed5ebd014b44c0, type: 3}
+  name: Karl
   descriptions:
   - titre: 
     ID: 30
-    description: "Kenny est celui qui a organis\xE9 la soir\xE9e. Il est malheureusement
-      d\xE9c\xE9d\xE9."
+    description: "Karl est un vieil ami de Kenny. Il lui a pr\xE9sent\xE9 Gr\xE9gory."
