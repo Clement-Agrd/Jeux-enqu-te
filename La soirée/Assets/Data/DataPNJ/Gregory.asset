@@ -18,7 +18,7 @@ MonoBehaviour:
   Range: 0
   objectDatas:
   - {fileID: 11400000, guid: 526d9eb96b36ace4bb1889c17fd07b05, type: 2}
-  - {fileID: 11400000, guid: a0ca5de524e57c9488570720c88ab28a, type: 2}
+  - {fileID: 11400000, guid: b05fba975f88cd4418173cf8446902c4, type: 2}
   idle: {fileID: 2838420435087454388, guid: 2f10ede4d9c00004383c74174e942aad, type: 3}
   talk: {fileID: 8194954710033385323, guid: b1287bed1a2b2cf44880faa9d3acb7b6, type: 3}
   angry: {fileID: 8865756066731955310, guid: 6597b1f2bbb5f7b4bbaccedee895452a, type: 3}

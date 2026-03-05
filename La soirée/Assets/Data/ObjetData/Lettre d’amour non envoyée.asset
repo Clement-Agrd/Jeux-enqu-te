@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Core::Core.Script.Core.Data.ObjectData
   ObjetPrefab: {fileID: 0}
   Name: "Lettre d\u2019amour non envoy\xE9e "
-  Description: Une lettre d'amour
+  Description: "Une lettre d'amour, elle est adress\xE9 \xE0 Iness."
   HideDescription: "Une lettre d'amour de karl pour Iness. Il n'a pas os\xE9e lui
     donner"
-  ShowingDescription: karl voulais declarer sa flamme a iness...mais il n'a pas eu
-    le courrage
+  ShowingDescription: "karl voulais declarer sa flamme \xE0 Iness...mais il n'a pas
+    eu le courrage"
   ShowingDescriptionself: "Oui\u2026 c\u2019est moi qui l\u2019ai \xE9crite cette
-    lettre. Je n\u2019ai jamais os\xE9dire \xE0 Iness que je suis amoureux d'elle. "
+    lettre. Je n\u2019ai jamais os\xE9 dire \xE0 Iness que je suis amoureux d'elle. "
   ShowValue: -10
   InteractValue: 20
   TimeValue: 5
