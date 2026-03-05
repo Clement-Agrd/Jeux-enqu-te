@@ -40,6 +40,7 @@ namespace GamePlay
         {
 	        pauseMenuPrefab.gameObject.SetActive(false);
 	        Time.timeScale = 1;
+	        startButton.SetActive(false);
         }
 
         public void PauseButton()

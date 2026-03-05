@@ -6,7 +6,12 @@ namespace GamePlay
     public class JournalManager : MonoBehaviour
     {
         public GameObject journalPanel;
-        private bool IsOpen;
+        public bool IsOpen;
+
+        void Start()
+        {
+            CloseJournal();
+        }
         void Update()
         {
             if (Keyboard.current != null && Keyboard.current.uKey.wasPressedThisFrame)

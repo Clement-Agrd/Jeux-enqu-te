@@ -3,6 +3,7 @@ using GamePlay.Script.GamePlay.Interface;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 // Script pour la détéction du click de la souris. Il intéragie uniquement avec l'interface IInteract
 namespace GamePlay.Script.GamePlay.Mouse2D
 {

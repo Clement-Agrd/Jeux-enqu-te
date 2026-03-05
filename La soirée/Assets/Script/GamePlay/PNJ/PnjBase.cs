@@ -21,6 +21,7 @@ namespace GamePlay.Script.GamePlay.PNJ
         private float Range;
         public bool talking;
         private InventoryUI inventoryUI;
+        private JournalManager journalManager;
         
         [Header("Position du sprite")]
         private Vector3 StartPosition;
@@ -60,7 +61,8 @@ namespace GamePlay.Script.GamePlay.PNJ
         }
         public void Interact()
         {
-            if (talking == false)
+            journalManager = FindAnyObjectByType<JournalManager>();
+            if (talking == false && !journalManager.IsOpen && !inventoryUI.inventoryPanel.activeSelf)
             {
                 Debug.Log($"I am  {pnjData.name}");
                 Buttons.SetActive(true);

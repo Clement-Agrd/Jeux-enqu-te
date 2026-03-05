@@ -17,15 +17,15 @@ MonoBehaviour:
   Description: Une bouteille d'alcool vide
   HideDescription: 'Une bouteille d''alcool vide, karl la fini. '
   ShowingDescription: Karl a beaucoup hier. C'est lui qui l'a fini.
-  ShowingDescriptionself: "J\u2019ai beaucoup bu. J\u2019\xE9tais meme incapable
+  ShowingDescriptionself: "J\u2019ai beaucoup bu hier. J\u2019\xE9tais meme incapable
     de tenir debout. "
   ShowValue: 15
   InteractValue: 15
   TimeValue: 5
   icon: {fileID: 3497970726664498802, guid: 773819a5ddef9ce4c90d3b05044ddb49, type: 3}
-  isActive: 1
+  isActive: 0
   isActiveForever: 1
-  isActiveSelf: 0
+  isActiveSelf: 1
   ID: 1
   PnjDataSelf: {fileID: 11400000, guid: 51a618b21c814c34d8529c9f24d356f0, type: 2}
   pnjDataRangeUp: {fileID: 11400000, guid: 51a618b21c814c34d8529c9f24d356f0, type: 2}

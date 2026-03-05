@@ -7,10 +7,14 @@ namespace GamePlay
     public class SceneChangeSysteme : MonoBehaviour,IInteract
     {
         [SerializeField] private string sceneName;
+        public JournalManager journalManager;
         public void Interact()
         {
-            SceneManager.LoadScene(sceneName);
-            
+            journalManager = FindAnyObjectByType<JournalManager>();
+            if (!journalManager.IsOpen)
+            {
+                SceneManager.LoadScene(sceneName);
+            }
         }
     }
 }
