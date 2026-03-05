@@ -35,6 +35,7 @@ namespace GamePlay.Script.GamePlay.Object
                 Destroy(gameObject);
 
             }
+            timeManager = FindAnyObjectByType<TimeManager>();
         }
         public void Interact()
         {
