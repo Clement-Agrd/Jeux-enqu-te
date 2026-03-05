@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 08ff8f88901d79e47bd11399c0250eba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -100977776911689669
+    second: pngtree-stop-button-hold-picture-image_13111577_0
+  - first:
+      213: -2515605407039126178
+    second: pngtree-stop-button-hold-picture-image_13111577_1
+  - first:
+      213: 4710846609855759746
+    second: pngtree-stop-button-hold-picture-image_13111577_2
+  - first:
+      213: -6300012539613282222
+    second: pngtree-stop-button-hold-picture-image_13111577_3
+  - first:
+      213: 7412792113440936383
+    second: pngtree-stop-button-hold-picture-image_13111577_4
+  - first:
+      213: -1561404381139224670
+    second: pngtree-stop-button-hold-picture-image_13111577_5
+  - first:
+      213: -6490262578463935946
+    second: pngtree-stop-button-hold-picture-image_13111577_6
+  - first:
+      213: -8077184469017538693
+    second: pngtree-stop-button-hold-picture-image_13111577_7
+  - first:
+      213: 8301215464801461720
+    second: pngtree-stop-button-hold-picture-image_13111577_8
+  - first:
+      213: -7023960765637338343
+    second: pngtree-stop-button-hold-picture-image_13111577_9
+  - first:
+      213: -5151772576620634512
+    second: pngtree-stop-button-hold-picture-image_13111577_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-stop-button-hold-picture-image_13111577_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 1194
+        height: 893
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3858f43f31499ef0800000000000000
+      internalID: -100977776911689669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-stop-button-hold-picture-image_13111577_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 45
+        width: 956
+        height: 848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e558166e536c61dd0800000000000000
+      internalID: -2515605407039126178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-stop-button-hold-picture-image_13111577_2
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 486
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2854ec3580a406140800000000000000
+      internalID: 4710846609855759746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-stop-button-hold-picture-image_13111577_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 511
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25008df59fbd198a0800000000000000
+      internalID: -6300012539613282222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-stop-button-hold-picture-image_13111577_4
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 428
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1d67b07278fd660800000000000000
+      internalID: 7412792113440936383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-stop-button-hold-picture-image_13111577_5
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 466
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7357fecf6c45ae0800000000000000
+      internalID: -1561404381139224670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-stop-button-hold-picture-image_13111577_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 368
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63275af5294fde5a0800000000000000
+      internalID: -6490262578463935946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-stop-button-hold-picture-image_13111577_7
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 399
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f48ea258318ef80800000000000000
+      internalID: -8077184469017538693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-stop-button-hold-picture-image_13111577_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 45
+        width: 248
+        height: 247
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d56877cb77d33370800000000000000
+      internalID: 8301215464801461720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-stop-button-hold-picture-image_13111577_9
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 0
+        width: 74
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bd7efe5e0e58e90800000000000000
+      internalID: -7023960765637338343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-stop-button-hold-picture-image_13111577_10
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 74
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e9de6032a3188b0800000000000000
+      internalID: -5151772576620634512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bc827c78fd7075d45813af9902e34c24
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pngtree-stop-button-hold-picture-image_13111577_0: -100977776911689669
+      pngtree-stop-button-hold-picture-image_13111577_1: -2515605407039126178
+      pngtree-stop-button-hold-picture-image_13111577_10: -5151772576620634512
+      pngtree-stop-button-hold-picture-image_13111577_2: 4710846609855759746
+      pngtree-stop-button-hold-picture-image_13111577_3: -6300012539613282222
+      pngtree-stop-button-hold-picture-image_13111577_4: 7412792113440936383
+      pngtree-stop-button-hold-picture-image_13111577_5: -1561404381139224670
+      pngtree-stop-button-hold-picture-image_13111577_6: -6490262578463935946
+      pngtree-stop-button-hold-picture-image_13111577_7: -8077184469017538693
+      pngtree-stop-button-hold-picture-image_13111577_8: 8301215464801461720
+      pngtree-stop-button-hold-picture-image_13111577_9: -7023960765637338343
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

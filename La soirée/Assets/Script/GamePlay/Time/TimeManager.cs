@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace GamePlay
 {
@@ -36,7 +37,10 @@ namespace GamePlay
         {
             currentTime -= timeLoose;
             if (currentTime <= 0)
+            {
                 Debug.Log("Vous n'avez plus de temps");
+                SceneManager.LoadScene("SceneAccuse");
+            }
         }
 
         //action à appeller pour Gagner du temps avec un int (valeur du temps gagner)
@@ -45,11 +49,6 @@ namespace GamePlay
             currentTime += timeAdd;
         }
 
-        /*test pour voir si la mecanique marche
-        private void FixedUpdate()
-        {
-            LooseTime(1);
-        }
-        */
+       
     }
 }

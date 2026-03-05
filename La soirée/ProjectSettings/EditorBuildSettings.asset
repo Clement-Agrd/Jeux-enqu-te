@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SceneFinale/Cuisine.unity
     guid: a88335d887e3bdf4db5415014504365a
+  - enabled: 1
+    path: Assets/SceneFinale/SceneAccuse.unity
+    guid: f39ef08f7a62406459f367930cdf22d2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
