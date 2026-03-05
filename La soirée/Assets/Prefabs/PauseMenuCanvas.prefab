@@ -901,7 +901,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1970040774863516041, guid: 814f42a203833b94e8b67e200243ac1a, type: 3}
         m_TargetAssemblyTypeName: GamePlay.SaveData, GamePlay
         m_MethodName: SaveToJson
         m_Mode: 1
@@ -1287,7 +1287,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1970040774863516041, guid: 814f42a203833b94e8b67e200243ac1a, type: 3}
         m_TargetAssemblyTypeName: GamePlay.SaveData, GamePlay
         m_MethodName: LoadFromJson
         m_Mode: 1

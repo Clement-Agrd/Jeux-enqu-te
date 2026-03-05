@@ -25,37 +25,48 @@ namespace GamePlay
         }
         public void StartButton()
         {
-            SceneManager.LoadScene("Intro");
             mainSound.Play();
             tel.tel=false;
+            SceneManager.LoadScene("Intro");
         }
 
         public void QuitGame()
         {
-           Application.Quit(); 
            secondSound.Play();
+           Application.Quit(); 
         }
 
         public void QuitButton()
         {
+	        startButton.SetActive(false);
 	        pauseMenuPrefab.gameObject.SetActive(false);
 	        Time.timeScale = 1;
-	        startButton.SetActive(false);
         }
 
         public void PauseButton()
         {
+	        secondSound.Play();
 	        pauseMenuPrefab.SetActive(true);
 	        Time.timeScale = 0;
-	        secondSound.Play();
 	        
         }
 
         public void MenuButton()
         {
-	        SceneManager.LoadScene("Menu");
 	        mainSound.Play();
+	        Destroy(TimeManager.Instance.gameObject);
+	        SceneManager.LoadScene("Menu");
         }
         
+        public static void ResetSession()
+        {
+	        foreach (var obj in FindObjectsOfType<MonoBehaviour>())
+	        {
+		        if (obj.gameObject.scene.name == "DontDestroyOnLoad")
+		        {
+			        Destroy(obj.gameObject);
+		        }
+	        }
+        }
     }
 }
