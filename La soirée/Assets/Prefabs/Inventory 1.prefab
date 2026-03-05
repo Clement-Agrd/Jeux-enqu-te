@@ -67,9 +67,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
+  m_Sprite: {fileID: 882672711578293438, guid: d4c91c750136b94449b22b070b89f6c7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -512,9 +512,6 @@ MonoBehaviour:
   content: {fileID: 877407546062144077}
   itemButtonPrefab: {fileID: 852178323394927171}
   itemDetailsPanel: {fileID: 8305012343573146358}
-  itemDetailsPanelObject: {fileID: 0}
-  previewImageObject: {fileID: 0}
-  descriptionTextObject: {fileID: 0}
   previewImage: {fileID: 6232887634511006074}
   descriptionText: {fileID: 7028201119100480303}
   ShowingItem: 0
@@ -574,7 +571,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 50, y: 90}
+  m_CellSize: {x: 170, y: 170}
   m_Spacing: {x: 10, y: 10}
   m_Constraint: 0
   m_ConstraintCount: 2

@@ -18,8 +18,8 @@ MonoBehaviour:
   - expression: 4
     text: "Je suis arriv\xE9e ce matin quand j'ai appris ce qui est arriv\xE9 \xE0
       Kenny. "
-    textSpeed: 1
+    textSpeed: 0.01
   - expression: 4
     text: "Je ne sais pas ce qu'il c'est pass\xE9, j'\xE8spere que tu trouveras le
       coupable."
-    textSpeed: 1
+    textSpeed: 0.01

@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
   m_Name: "Leo Soir\xE9"
   m_EditorClassIdentifier: Core::Core.DialogueData
-  AddRange: 2
+  AddRange: 10
   pnj: {fileID: 11400000, guid: 5e17ddb9b4be8ab4bae6ddd0a654adde, type: 2}
   AddDialogue:
   - expression: 1
     text: "Je suis pass\xE9 de groupe en groupe pour calmer les tensions. J\u2019ai
       essay\xE9 d\u2019\xE9viter que la situation d\xE9g\xE9n\xE8re avec les histoire
       de tromperie."
-    textSpeed: 1
+    textSpeed: 0.01
   - expression: 1
     text: "Apr\xE8s la dispute, j\u2019ai discut\xE9 un peu avec Gregory, puis avec
       Karl. Je n\u2019ai rien vu d\u2019anormal jusqu\u2019\xE0 ce qu\u2019on d\xE9couvre
       le corps."
-    textSpeed: 1
+    textSpeed: 0.01

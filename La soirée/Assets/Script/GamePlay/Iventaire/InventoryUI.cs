@@ -1,5 +1,6 @@
 using System.Threading;
 using Core.Script.Core.Data;
+using GamePlay;
 using GamePlay.Script.GamePlay.Object;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,7 +14,7 @@ public class InventoryUI : MonoBehaviour
     public Transform content;              // Zone où apparaissent les objets
     public GameObject itemButtonPrefab;    // Bouton d'objet
     public GameObject itemDetailsPanel; // Image + description
-    
+    private TimeManager timeManager;
     
     
     [Header("Preview")]
@@ -41,6 +42,7 @@ public class InventoryUI : MonoBehaviour
         {
             ToggleInventory(false);
         }
+        timeManager = FindAnyObjectByType<TimeManager>();
     }
 
     public void ToggleInventory(bool showing)
@@ -94,6 +96,7 @@ public class InventoryUI : MonoBehaviour
                 itemDetailsPanel.SetActive(true);
                 previewImage.sprite = obj.icon;
                 descriptionText.text = obj.ShowingDescriptionself;
+                timeManager.LooseTime(5);
                 return;
             }
                 
@@ -105,12 +108,14 @@ public class InventoryUI : MonoBehaviour
                 itemDetailsPanel.SetActive(true);
                 previewImage.sprite = obj.icon;
                 descriptionText.text = obj.ShowingDescription;
+                timeManager.LooseTime(5);
             }
             else
             {
                 itemDetailsPanel.SetActive(true);
                 previewImage.sprite = obj.icon;
                 descriptionText.text = "Je n'ai rien a te dire sur cette objet";
+                timeManager.LooseTime(5);
             }
         }
         else

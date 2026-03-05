@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
   m_Name: Greg Custom
   m_EditorClassIdentifier: Core::Core.DialogueData
-  AddRange: 3
+  AddRange: 20
   pnj: {fileID: 11400000, guid: 914c17825451fd04c87bacc329c17294, type: 2}
   AddDialogue:
   - expression: 2
     text: "Karl m'a invit\xE9 et m'a dit que \xE7a se passerait bien, je l'ai cru
       au d\xE9but mais j'ai vite compris que Kenny n'avait pas chang\xE9.\r\n"
-    textSpeed: 1
+    textSpeed: 0.01

@@ -11,7 +11,6 @@ namespace Core.Script.Core.Data
     {
         public string Name;
         public GameObject[] GameObject;
-		
         [Header("Accuse mechanic")]
         public int Accuse;
         public float Range;

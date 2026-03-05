@@ -18,4 +18,4 @@ MonoBehaviour:
   - expression: 2
     text: "D\xE9sol\xE9, mais tu es la derni\xE8re personne \xE0 avoir \xE9t\xE9
       vue avec lui, \xE7a pourrait bien \xEAtre toi."
-    textSpeed: 1
+    textSpeed: 0.01

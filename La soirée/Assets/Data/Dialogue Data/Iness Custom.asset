@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
   m_Name: Iness Custom
   m_EditorClassIdentifier: Core::Core.DialogueData
-  AddRange: 3
+  AddRange: 15
   pnj: {fileID: 11400000, guid: c5ff8f435c0d9e2439edaeb9b2b73bd3, type: 2}
   AddDialogue:
   - expression: 1
     text: "Ce matin, je me suis lev\xE9e la premi\xE8re. Je voulais parler \xE0 Kenny
       de tout ce qu'il s'est pass\xE9 hier, il n'\xE9tait plus dans la chambre."
-    textSpeed: 1
+    textSpeed: 0.01
   - expression: 4
     text: "Quand je suis arriv\xE9e dans le salon, j'ai d\xE9couvert Kenny mort,
       j'ai appel\xE9 Isabelle."
-    textSpeed: 1
+    textSpeed: 0.01

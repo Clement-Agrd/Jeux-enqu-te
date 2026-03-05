@@ -19,4 +19,4 @@ MonoBehaviour:
     text: 'Je ne sais pas, j''espere que ce n''est pas l''un d''entre vous.
 
 '
-    textSpeed: 1
+    textSpeed: 0.01

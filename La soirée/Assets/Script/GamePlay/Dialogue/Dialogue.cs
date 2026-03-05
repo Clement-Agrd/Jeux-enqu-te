@@ -16,6 +16,8 @@ namespace GamePlay
         public PnjBase pnjBase;
         public bool DialogueIsActive { get; private set; }
         private bool RangeIsAdd;
+        
+        private TimeManager timeManager;
 
         private int dialogueIndex;
         private Coroutine typingCoroutine;
@@ -24,6 +26,7 @@ namespace GamePlay
 
         public void StartDialogue()
         {
+            timeManager.LooseTime(5);
             if (DialogueIsActive) return;
             //Vérifie que le dialogueData n'est pas vide
             if (dialogueData == null || dialogueData.AddDialogue.Length == 0)
@@ -66,6 +69,7 @@ namespace GamePlay
 
         void Update()
         {
+            timeManager = FindAnyObjectByType<TimeManager>();
             
             //Test
             

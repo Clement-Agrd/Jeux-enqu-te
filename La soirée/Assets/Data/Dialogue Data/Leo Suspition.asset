@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
   m_Name: Leo Suspition
   m_EditorClassIdentifier: Core::Core.DialogueData
-  AddRange: 5
+  AddRange: 30
   pnj: {fileID: 11400000, guid: 1af71194974a4734ead1f4caa9240b2c, type: 2}
   AddDialogue:
   - expression: 2
     text: "Le robot s'est activ\xE9 dans la nuit, j'ai lu que \xE7a venait d'un bug,
       l'accident est peut-\xEAtre li\xE9 \xE0 \xE7a."
-    textSpeed: 1
+    textSpeed: 0.01

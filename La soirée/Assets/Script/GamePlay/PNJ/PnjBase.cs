@@ -28,24 +28,28 @@ namespace GamePlay.Script.GamePlay.PNJ
 
 		
         public DialogueManager dialogueManager;
+        
+        private static bool alreadyReset = false;
 
+        
         public void Awake()
         {
             CharaterSprite = GetComponent<SpriteRenderer>();
         }
-
         public void Start()
         {
-            Debug.Log(pnjData.name);
-            pnjData.Accuse = 0;
-            pnjData.Range = 0;
+            if (!alreadyReset)
+            {
+                pnjData.Range = 0;
+                pnjData.Accuse = 0;
+                alreadyReset = true;
+            }
+
             Buttons.SetActive(false);
             CharaterSprite.sprite = pnjData.idle;
             StartPosition = transform.position;
-            
-            if(Buttons!=null)return;
         }
-
+        
         void Update()
         {
             inventoryUI = FindAnyObjectByType<InventoryUI>();

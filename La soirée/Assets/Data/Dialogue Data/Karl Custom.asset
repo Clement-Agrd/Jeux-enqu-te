@@ -17,4 +17,4 @@ MonoBehaviour:
   AddDialogue:
   - expression: 4
     text: C'etait mon ami, on se connaissait depuis longtemps.
-    textSpeed: 1
+    textSpeed: 0.01

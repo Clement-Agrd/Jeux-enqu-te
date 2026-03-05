@@ -12,19 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
   m_Name: "Iness Soir\xE9"
   m_EditorClassIdentifier: Core::Core.DialogueData
-  AddRange: 2
+  AddRange: 25
   pnj: {fileID: 11400000, guid: c5ff8f435c0d9e2439edaeb9b2b73bd3, type: 2}
   AddDialogue:
   - expression: 2
     text: "Au d\xE9but  tout allait bien. Jusqu'a ce que je surprene Kenny avec Danielle.
       Je suis sortie, je me suis enferm\xE9e un moment. Apr\xE8s \xE7a\u2026 je ne
       voulais plus le voir."
-    textSpeed: 1
+    textSpeed: 0.01
   - expression: 4
     text: "On s\u2019est disput\xE9s dans la chambre, violemment. Il a cass\xE9 mon
       t\xE9l\xE9phone."
-    textSpeed: 1
+    textSpeed: 0.01
   - expression: 1
     text: "Je suis sortie, je me suis enferm\xE9e un moment. Apr\xE8s \xE7a\u2026
       je ne voulais plus le voir."
-    textSpeed: 1
+    textSpeed: 0.01

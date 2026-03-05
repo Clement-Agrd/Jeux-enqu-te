@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
   m_Name: Isabelle Custom
   m_EditorClassIdentifier: Core::Core.DialogueData
-  AddRange: 3
+  AddRange: 10
   pnj: {fileID: 11400000, guid: 5e17ddb9b4be8ab4bae6ddd0a654adde, type: 2}
   AddDialogue:
   - expression: 1
     text: "C'est mon fr\xE8re, c'\xE9tait un cr\xE9ateur de contenu, il a fait beaucoup
       d'argent et il avait une grosse communaut\xE9 derri\xE8re lui, il avait beaucoup
       d'influence, chaque reproche qu'il fessait pouvait d\xE9truire des carri\xE8res."
-    textSpeed: 1
+    textSpeed: 0.01

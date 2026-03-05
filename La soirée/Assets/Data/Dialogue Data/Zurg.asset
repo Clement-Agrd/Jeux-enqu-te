@@ -16,5 +16,6 @@ MonoBehaviour:
   pnj: {fileID: 11400000, guid: 5e17ddb9b4be8ab4bae6ddd0a654adde, type: 2}
   AddDialogue:
   - expression: 0
-    text: Je veux voir l'historique de nettoyage.
+    text: "Merci de demander, voil\xE0 l'historique de nettoyage d'hier : Dernier
+      nettoyage \xE0 23h52. Ordre manuel confirm\xE9. 15 minutes d'activation."
     textSpeed: 0.01
