@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Core::Core.Script.Core.Data.ObjectData
   ObjetPrefab: {fileID: 0}
   Name: "T\xE9l\xE9phone avec message humiliant "
-  Description: "Un t\xE9l\xE9phone avec des message humiliant venant de kenny"
+  Description: "Un t\xE9l\xE9phone verrouill\xE9 avec des messages humiliants venant
+    de kenny"
   HideDescription: "Un t\xE9l\xE9phone avec des message humiliant venant de kenny.
     Il appratient a Gregory"
   ShowingDescription: "C\u2019est celui de Gregory. Kenny l\u2019avait encore provoqu\xE9

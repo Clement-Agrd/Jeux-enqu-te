@@ -17,9 +17,9 @@ MonoBehaviour:
   Accuse: 0
   Range: 0
   objectDatas: []
-  idle: {fileID: -7024586534097298709, guid: 72efbe7ae91970844a486b0e5e0d2840, type: 3}
-  talk: {fileID: 8454938843435017596, guid: 3d8a03c69f0513b4791255ac15bfbc02, type: 3}
-  angry: {fileID: 1698621941706106874, guid: d5e3bbda746ab5048a74e369e05650a1, type: 3}
-  happy: {fileID: 8773228187336461312, guid: dfe01e4ecfc45df4b8b33a341e8c3ab7, type: 3}
-  sad: {fileID: -8136349044805119550, guid: dfecffcf6624f7343bf8eaadaf88f110, type: 3}
-  surprise: {fileID: -488934306663087904, guid: b26eac96ff57b614099349907de11c9e, type: 3}
+  idle: {fileID: -8178382493029235084, guid: 72efbe7ae91970844a486b0e5e0d2840, type: 3}
+  talk: {fileID: -7902630876347800487, guid: 3d8a03c69f0513b4791255ac15bfbc02, type: 3}
+  angry: {fileID: -6362148162575057688, guid: d5e3bbda746ab5048a74e369e05650a1, type: 3}
+  happy: {fileID: -1987249499771447563, guid: dfe01e4ecfc45df4b8b33a341e8c3ab7, type: 3}
+  sad: {fileID: -6504040532694634425, guid: dfecffcf6624f7343bf8eaadaf88f110, type: 3}
+  surprise: {fileID: 4660106633740455866, guid: b26eac96ff57b614099349907de11c9e, type: 3}

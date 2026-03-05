@@ -10,16 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
-  m_Name: Test
+  m_Name: Zurg
   m_EditorClassIdentifier: Core::Core.DialogueData
   AddRange: 0
+  pnj: {fileID: 11400000, guid: 5e17ddb9b4be8ab4bae6ddd0a654adde, type: 2}
   AddDialogue:
-  - expression: 4
-    text: pouquoi ?
-    textSpeed: 0.02
-  - expression: 4
-    text: Car il y a un meurtrier dans la maison
-    textSpeed: 0.02
-  - expression: 5
-    text: "\xE7a fais peur !"
-    textSpeed: 0.5
+  - expression: 0
+    text: Je veux voir l'historique de nettoyage.
+    textSpeed: 0.01

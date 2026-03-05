@@ -13,9 +13,13 @@ MonoBehaviour:
   m_Name: Iness Custom
   m_EditorClassIdentifier: Core::Core.DialogueData
   AddRange: 3
-  pnj: {fileID: 11400000, guid: 781d81057231cfa4d9f0d668f5993112, type: 2}
+  pnj: {fileID: 11400000, guid: c5ff8f435c0d9e2439edaeb9b2b73bd3, type: 2}
   AddDialogue:
-  - expression: 2
-    text: "Je me suis disput\xE9 avec Kenny, c'\xE9tait violent mais pas \xE0 ce
-      point, je suis partie dans ma chambre pleurer."
+  - expression: 1
+    text: "Ce matin, je me suis lev\xE9e la premi\xE8re. Je voulais parler \xE0 Kenny
+      de tout ce qu'il s'est pass\xE9 hier, il n'\xE9tait plus dans la chambre."
+    textSpeed: 1
+  - expression: 4
+    text: "Quand je suis arriv\xE9e dans le salon, j'ai d\xE9couvert Kenny mort,
+      j'ai appel\xE9 Isabelle."
     textSpeed: 1

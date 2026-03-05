@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: "Karl Soir\xE9"
   m_EditorClassIdentifier: Core::Core.DialogueData
   AddRange: 5
-  pnj: {fileID: 11400000, guid: 781d81057231cfa4d9f0d668f5993112, type: 2}
+  pnj: {fileID: 11400000, guid: 51a618b21c814c34d8529c9f24d356f0, type: 2}
   AddDialogue:
   - expression: 1
     text: "J\u2019ai pass\xE9 la soir\xE9e \xE0 boire.\r\n"
     textSpeed: 1
   - expression: 4
-    text: "J\u2019ai vu la dispute \xE9clater entre In\xE8s et Kenny, \xE7a a mis
-      tout le monde mal \xE0 l\u2019aise."
+    text: "J\u2019ai vu la dispute \xE9clater entre Iness et Kenny, \xE7a a mis tout
+      le monde mal \xE0 l\u2019aise."
     textSpeed: 1
   - expression: 4
     text: "Apr\xE8s le d\xEEner, j'ai continu\xE9 a boire encore un peu. Je voulais

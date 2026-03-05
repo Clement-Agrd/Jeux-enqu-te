@@ -10,13 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
-  m_Name: option 1
+  m_Name: Karl Custom
   m_EditorClassIdentifier: Core::Core.DialogueData
   AddRange: 0
+  pnj: {fileID: 11400000, guid: 5e17ddb9b4be8ab4bae6ddd0a654adde, type: 2}
   AddDialogue:
-  - expression: 1
-    text: salut
-    textSpeed: 0.02
-  - expression: 5
-    text: "Il c'est pass\xE9 quoi ici ?"
-    textSpeed: 0.5
+  - expression: 4
+    text: C'etait mon ami, on se connaissait depuis longtemps.
+    textSpeed: 1

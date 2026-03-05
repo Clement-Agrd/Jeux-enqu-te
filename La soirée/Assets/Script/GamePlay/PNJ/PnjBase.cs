@@ -20,6 +20,7 @@ namespace GamePlay.Script.GamePlay.PNJ
         private List<Inventory> inventory;
         private float Range;
         public bool talking;
+        private InventoryUI inventoryUI;
         
         [Header("Position du sprite")]
         private Vector3 StartPosition;
@@ -45,6 +46,10 @@ namespace GamePlay.Script.GamePlay.PNJ
             if(Buttons!=null)return;
         }
 
+        void Update()
+        {
+            inventoryUI = FindAnyObjectByType<InventoryUI>();
+        }
         public void SetExpression(PnjData.AllExpression expr)
         {
             CharaterSprite.sprite = pnjData.GetExpression(expr);
@@ -58,10 +63,10 @@ namespace GamePlay.Script.GamePlay.PNJ
             }
         }
 
-        public void QuitInteract(InventoryUI inventory)
+        public void QuitInteract()
         {
             Buttons.SetActive(false);
-            inventory.Quit();
+            inventoryUI.Quit();
         }
 
         public void ResetExpression()
@@ -69,9 +74,9 @@ namespace GamePlay.Script.GamePlay.PNJ
             CharaterSprite.sprite = pnjData.idle;
         }
 
-        public void ShowObject(InventoryUI inventory)
+        public void ShowObject()
         {
-            inventory.ToggleInventory(true);
+            inventoryUI.ToggleInventory(true);
             foreach ( ObjectData objectData in Inventory.Instance.objects)
             {
                 if (objectData.PnjDataSelf==pnjData)
@@ -125,5 +130,6 @@ namespace GamePlay.Script.GamePlay.PNJ
                 //Play video de fin 
             }
         }
+        
     }
 }

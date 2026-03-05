@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 204348348daaf9f4a82c9bc33374e37e
+guid: b56506103099f2342a516c93ba44db43
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9064319347094486787
-    second: Salon_0
+      213: -650173656563959300
+    second: lettre poser_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Salon_0
+      name: lettre poser_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 2048
-        height: 2048
+        x: 10
+        y: 920
+        width: 1037
+        height: 200
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df08bb12491153280800000000000000
-      internalID: -9064319347094486787
+      spriteID: cf9303e018e1af6f0800000000000000
+      internalID: -650173656563959300
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Salon_0: -9064319347094486787
+      lettre poser_0: -650173656563959300
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
