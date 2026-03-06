@@ -22,8 +22,8 @@ MonoBehaviour:
     pendant le d\xEEner. "
   ShowingDescriptionself: "C'est mon t\xE9l\xE9phone. Kenny m'envoyait souvent ce
     genre de messages humilliant. "
-  ShowValue: 20
-  InteractValue: 10
+  ShowValue: 30
+  InteractValue: 30
   TimeValue: 5
   icon: {fileID: 6782725070478774244, guid: 6d914db403f03e1449fb2871680ad242, type: 3}
   isActive: 0

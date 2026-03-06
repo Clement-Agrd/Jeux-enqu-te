@@ -22,7 +22,7 @@ MonoBehaviour:
   ShowingDescriptionself: "C'est mon telephone! O\xF9 l'a tu trouv\xE9 ? tu ne l'a
     pas fouiller ?"
   ShowValue: 30
-  InteractValue: 20
+  InteractValue: 30
   TimeValue: 5
   icon: {fileID: -7579512784821823336, guid: eeae3f11230424b4cbc9d9c7560b5319, type: 3}
   isActive: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89a1cc128670e714e99a87720a1d12bc, type: 3}
   m_Name: Isabelle Custom
   m_EditorClassIdentifier: Core::Core.DialogueData
-  AddRange: 10
+  AddRange: 40
   pnj: {fileID: 11400000, guid: 5e17ddb9b4be8ab4bae6ddd0a654adde, type: 2}
   AddDialogue:
   - expression: 1

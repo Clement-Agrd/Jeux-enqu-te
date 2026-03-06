@@ -21,8 +21,8 @@ MonoBehaviour:
     apres ce qu'il c'est pass\xE9 entre Kenny et moi. "
   ShowingDescriptionself: "Kenny a cass\xE9 mon t\xE9l\xE9phone pendant qu\u2019on
     se disputait. "
-  ShowValue: 20
-  InteractValue: 20
+  ShowValue: 30
+  InteractValue: 30
   TimeValue: 5
   icon: {fileID: 882672711578293438, guid: d4c91c750136b94449b22b070b89f6c7, type: 3}
   isActive: 1

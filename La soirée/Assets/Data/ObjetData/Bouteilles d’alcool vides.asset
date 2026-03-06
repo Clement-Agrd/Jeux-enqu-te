@@ -19,8 +19,8 @@ MonoBehaviour:
   ShowingDescription: Karl a beaucoup bu hier. C'est lui qui l'a fini.
   ShowingDescriptionself: "J\u2019ai beaucoup bu hier. J\u2019\xE9tais meme incapable
     de tenir debout. "
-  ShowValue: 15
-  InteractValue: 15
+  ShowValue: 30
+  InteractValue: 30
   TimeValue: 5
   icon: {fileID: 3497970726664498802, guid: 773819a5ddef9ce4c90d3b05044ddb49, type: 3}
   isActive: 1

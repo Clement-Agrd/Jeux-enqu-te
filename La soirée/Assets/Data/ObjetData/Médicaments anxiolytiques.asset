@@ -19,8 +19,8 @@ MonoBehaviour:
     Gregory"
   ShowingDescription: "Ce sont les m\xE9dicament de Gregory, il en prends regulierement"
   ShowingDescriptionself: "Je prends ces m\xE9dicaments pour rester calme. "
-  ShowValue: 20
-  InteractValue: 10
+  ShowValue: 30
+  InteractValue: 30
   TimeValue: 5
   icon: {fileID: -7023736330509800842, guid: 7cc9e864f888ef048a1bc38b8d7c7fe1, type: 3}
   isActive: 0

@@ -20,7 +20,7 @@ MonoBehaviour:
   ShowingDescriptionself: "C'est mon ordinateur, j'ai chercher des raison \xE0 l'accident.
     J'ai trouv\xE9 un bug avec le robot qui le fais pousser des gens dans l'escalier.  "
   ShowValue: 30
-  InteractValue: 20
+  InteractValue: 30
   TimeValue: 5
   icon: {fileID: -3910763001397647314, guid: f54470182f9ce8d42a41b2a1cf7ee388, type: 3}
   isActive: 1
