@@ -1,8 +1,5 @@
-using System;
 using GamePlay.Script.GamePlay.Interface;
 using Core.Script.Core.Data;
-using GamePlay.Script.GamePlay.Mouse2D;
-using Unity.VisualScripting.YamlDotNet.Core.Tokens;
 using UnityEngine;
 
 

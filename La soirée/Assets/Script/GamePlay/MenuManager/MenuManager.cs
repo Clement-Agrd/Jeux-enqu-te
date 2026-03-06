@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using Core.Script.Core.Data;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -16,9 +18,15 @@ namespace GamePlay
         [SerializeField] private AudioSource secondSound;
 
         [SerializeField] private boolIsPickUp tel;
+        [SerializeField] private List<PnjData> pnjDataList;
 
         private void Start()
         {
+	        foreach (PnjData pnjData in pnjDataList)
+	        {
+		        pnjData.Range = 0;
+		        pnjData.Accuse = 0;
+	        }
 	        pauseMenuPrefab.SetActive(false);
 	        mainSound.Pause();
 	        secondSound.Pause();

@@ -93,7 +93,7 @@ namespace GamePlay
                 LeoEnd.SetActive(true);
             }
 
-            if (pnjData.name == "CB12")
+            if (pnjData.name == "Zurg CB12")
             {
                 CB12End.SetActive(true);
             }

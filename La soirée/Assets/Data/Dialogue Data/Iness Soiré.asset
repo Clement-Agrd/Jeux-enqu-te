@@ -24,7 +24,7 @@ MonoBehaviour:
     text: "On s\u2019est disput\xE9s dans la chambre, violemment. Il a cass\xE9 mon
       t\xE9l\xE9phone."
     textSpeed: 0.01
-  - expression: 1
+  - expression: 4
     text: "Je suis sortie, je me suis enferm\xE9e un moment. Apr\xE8s \xE7a\u2026
       je ne voulais plus le voir."
     textSpeed: 0.01

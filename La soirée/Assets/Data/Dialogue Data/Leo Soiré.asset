@@ -22,6 +22,6 @@ MonoBehaviour:
     textSpeed: 0.01
   - expression: 1
     text: "Apr\xE8s la dispute, j\u2019ai discut\xE9 un peu avec Gregory, puis avec
-      Karl. Je n\u2019ai rien vu d\u2019anormal jusqu\u2019\xE0 ce qu\u2019on d\xE9couvre
-      le corps."
+      Karl. Je n\u2019ai rien vu ni entendu d\u2019anormal cette nuit, jusqu\u2019\xE0
+      ce qu\u2019on d\xE9couvre le corps."
     textSpeed: 0.01

@@ -1,11 +1,8 @@
-using System;
 using System.Collections.Generic;
 using Core.Script.Core.Data;
 using GamePlay.Script.GamePlay.Interface;
-using GamePlay.Script.GamePlay.Mouse2D;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
-using Random = UnityEngine.Random;
+
 
 namespace GamePlay.Script.GamePlay.PNJ
 {
@@ -30,7 +27,7 @@ namespace GamePlay.Script.GamePlay.PNJ
 		
         public DialogueManager dialogueManager;
         
-        private static bool alreadyReset = false;
+       
 
         
         public void Awake()
@@ -39,13 +36,6 @@ namespace GamePlay.Script.GamePlay.PNJ
         }
         public void Start()
         {
-            if (!alreadyReset)
-            {
-                pnjData.Range = 0;
-                pnjData.Accuse = 0;
-                alreadyReset = true;
-            }
-
             Buttons.SetActive(false);
             CharaterSprite.sprite = pnjData.idle;
             StartPosition = transform.position;
